@@ -58,7 +58,7 @@ export const Usercard = () => {
     {
         userData.map((user, index)=>(
             <User key={index} name={user.name} city={user.city}
-            title={user.title} skills={user.skills} image={user.image}/>
+            title={user.title} skills={user.skills} image={user.image}  online={user.online}/>
         ))
     }
     </>)
